@@ -46,6 +46,5 @@ group :development, :test do
   gem 'capybara'
   gem 'capybara-webkit'
   gem 'selenium-webdriver'
-  gem 'capybara-screenshot'
 end
 
