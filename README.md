@@ -2,9 +2,7 @@
 A minimal reproduction of the thread hang bug in byebug. It contains one feature spec set up with RSpec, Capybara, and capybara-webkit.
 
 # Setup
-```ruby
-bundle install
-```
+You'll need the Qt library if you don't already have that installed as this repo uses capybara-webkit. After that, just run ``` bundle install ```
 
 # Steps to reproduce
 1. Run the feature spec and watch it pass: rspec spec/features/home_spec.rb
