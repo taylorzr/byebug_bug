@@ -8,4 +8,4 @@ You'll need the Qt library as this repo uses capybara-webkit. After that, just r
 1. Run the feature spec and watch it pass: rspec spec/features/home_spec.rb
 2. Uncomment the byebug line
 3. Run the feature spec again
-4. Call page.find('h1') and the thread should hang
+4. Call `eval page.find('h1')` and the thread should hang
